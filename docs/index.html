@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>蒲公英数字化营销系统使用手册</title>
+  <link rel="icon" href="_media/favicon.ico" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta
+      name="keywords"
+      content="营销,数字化营销,数字化营销统,新零售,新零售系统"
+    />
+  <meta name="description" content="基于移动端私域流量的企业在线数字化新零售快速分销裂变系统">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+    	  el: '#app',
+    	  coverpage: true,
+    	  onlyCover: true,
+        loadSidebar: true,
+        alias: {
+	    '/.*/_sidebar.md': '/_sidebar.md'
+	  },
+        loadNavbar: true,
+        mergeNavbar: true,
+        maxLevel: 4,
+        subMaxLevel: 2,       
+        name: '蒲公英系统使用手册',
+        search: {
+            maxAge: 86400000, 
+            paths: 'auto',
+            placeholder: '搜索',
+            noData: '找不到结果!',
+            depth: 3,
+            hideOtherSidebarContent: false, 
+            pathNamespaces: ['/personal','/enterprise', '/group'],
+        }
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+</html>
